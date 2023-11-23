@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">StudyQuiz</string>
+    <string name="start_title_text">TEK SORU</string>
+    <string name="btnStart_text">BAŞLAT</string>
+
+    <string name="soru_text">Bir bilgisayarın işlemcisini seçerken aşağıdaki hangi faktör daha önemlidir?</string>
+    <string name="btnSec1_text">Çekirdek Sayısı</string>
+    <string name="btnSec2_text"> İşlemci Hızı</string>
+
+    <string name="sure_doldu">Süre Doldu!!!</string>
+    <string name="sure">Süre: %1$d</string>
+
+    <string name="ifTrue_text">TEBRİKLER</string>
+    <string name="ifFalse_text">Yanlış Cevap</string>
+
+
+</resources>
