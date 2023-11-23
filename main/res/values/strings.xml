@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Timeline</string>
+
+    <string name="name1_text">Julia Fore</string>
+    <string name="name2_text">Emma Orange</string>
+    <string name="name3_text">Gloria Montana</string>
+
+    <string name="time1_text">58 saniye önce</string>
+    <string name="time2_text">25 dakika önce</string>
+    <string name="time3_text">1 gün önce</string>
+</resources>
