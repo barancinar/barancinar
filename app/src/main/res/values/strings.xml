@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quiz3</string>
+
+    <string name="header_super_lig"><b>Türkiye Spor Toto Süper Lig</b></string>
+    <string name="header_birinci_lig"><b>Türkiye TFF 1.Lig</b></string>
+    <string name="header_ingiltere_lig"><b>İngiltere Premier Lig</b></string>
+
+    <string name="arama">Arama</string>
+
+</resources>

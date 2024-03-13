@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/matchHeader"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="50dp"
+                    android:background="#1C6A00" />
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bayrak" />
+
+                <TextView
+                    android:id="@+id/tvShortName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:textSize="@dimen/Textsize_xsmall"
+                    tools:text="Lig Kısa" />
+
+                <TextView
+                    android:id="@+id/tvIlkYari"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/Textsize_xsmall"
+                    android:textStyle="bold"
+                    tools:text="İlk Yarı" />
+
+                <TextView
+                    android:id="@+id/tvDurum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/Textsize_xsmall"
+                    android:textStyle="bold"
+                    tools:text="MS" />
+
+                <TextView
+                    android:id="@+id/tvStartTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/Textsize_xsmall"
+                    tools:text="13:30" />
+
+                <TextView
+                    android:id="@+id/tvCode"
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/kenar"
+                    android:backgroundTint="#C7DBD0"
+                    android:layout_marginEnd="3dp"
+                    android:textSize="@dimen/Textsize_xsmall"
+                    android:textStyle="bold"
+                    tools:text="132" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="50dp"
+                    android:background="#FF9800" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/matchInfo"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="50dp"
+                    android:background="#1C6A00" />
+
+                <TextView
+                    android:id="@+id/tvEvSahibi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:textSize="@dimen/Textsize_small"
+                    tools:text="Göztepe" />
+
+                <TextView
+                    android:id="@+id/tvSkor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/kenar"
+                    android:gravity="center"
+                    android:textColor="#546DDF"
+                    android:textSize="@dimen/Textsize_small"
+                    tools:text="2-1" />
+
+                <TextView
+                    android:id="@+id/tvDeplasman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center|start|right"
+                    android:textSize="@dimen/Textsize_small"
+                    tools:text="Antalya" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="50dp"
+                    android:background="#FF9800" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
