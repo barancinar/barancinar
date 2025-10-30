@@ -2,7 +2,7 @@
 ### Software Engineer
 
 <a href="https://github.com/barancinar">
-  <img align="right" width="400" src="https://media.giphy.com/media/d9cRaiwBcwYlq/giphy.gif" alt="Coding GIF">
+  <img align="right" width="400" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding GIF">
 </a>
 
 I am a **Software Engineer** who graduated with a full scholarship from **Doğuş University** as the **Highest-Ranking Graduate in the Faculty of Engineering**.
@@ -31,7 +31,6 @@ During my studies, I gained hands-on experience through internships at major com
 
 ### 💻 Tech Stack
 
-### 💻 Tech Stack
 
 #### ⚡ Programming Languages
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=flat&logo=csharp&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=flat&logo=kotlin&logoColor=white)
@@ -84,8 +83,4 @@ During my studies, I gained hands-on experience through internships at major com
   <a href="mailto:cinarbaran2003@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-</p>
-
-<p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=barancinar&icon=0&color=1" alt="Profile Views"/>
 </p>
